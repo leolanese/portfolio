@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html  xmlns:ng="http://angularjs.org" id="ng-app" ng-app="optionalModuleName" class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-svg" lang="en"><![endif]-->
+<!--[if IE 7]>     <html  xmlns:ng="http://angularjs.org" id="ng-app" ng-app="optionalModuleName" class="no-js lt-ie10 lt-ie9 lt-ie8 no-svg" lang="en"><![endif]-->
+<!--[if IE 8]>     <html  xmlns:ng="http://angularjs.org" id="ng-app" ng-app="optionalModuleName" class="no-js lt-ie10 lt-ie9 no-svg" lang="en"><![endif]-->
+<!--[if IE 9]>     <html  xmlns:ng="http://angularjs.org" id="ng-app" ng-app="optionalModuleName" class="no-js lt-ie10 ie9" lang="en"><![endif]-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Leo Lanese" />
+    <meta name="keywords" content="JavaScript, HTML5,CSS3,JSON,HTML5,Mobile,XML,PHP,smartPhones,UX" />
+    <meta name="keywords" content="Leo Lanese,Leonardo Lanese,Responsive Web Design,Progressive enhancement,Web Developer,HTML5,javascript, BDD/TDD,Mobile Web Developer,iOS,Android,Iphone" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab &bull; Leo Lanese</title>
+
+    <link rel="stylesheet" href="css/custom.bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- Favicon 32x32 png -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-touch-icon-iphone4.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/apple-touch-icon-ipad3.png">
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-ipad.png">
+    <!-- For iPhone with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precminErromposed" sizes="114x114" href="/img/apple-touch-icon-iphone4.png">
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad3.png">
+
+</head>
+
+    <body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">leo lanese web</a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:javascript@leolanese.com?Subject=Hello%20Leo Lanese" target="_top">contact me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://twitter.com/LeoLaneseltd">Twitter</a></li>
+                        <li><a href="http://www.leolanese.com/blog/">BLOG</a></li>
+                        <li><a href="http://www.rwdlab.com/">LAB</a></li>
+                        <li><a href="http://github.com/sirwilliam?tab=repositories">github</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.beresponsive.co.uk/">What I'm doing</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
+        <h1>I build websites</h1>
+      </div>
+    </div>
+
+<div class="container">
+    <div>
+        <h2>What do I do:</h2>
+        <p>I am a front-end developer mobile web strategist and am located in London, UK. I am a passion " +
+            "developer how enjoy create a better code for a better world and improve experiences to look and " +
+            "work beautifully across any environment that can access the web.</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <img src="./img/h4bbc2.jpg" />
+            <h2>BBC, London</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+
+        <div class="col-md-4 grey">
+            <img src="./img/nowtviphonejpg.jpg" />
+            <h2>SKY, London</h2>
+            <p>javascript, HTML, CSS</p>
+       </div>
+
+        <div class="col-md-4">
+            <img src="./img/ovi_maps.jpg" />
+          <h2>NOKIA, Berlin</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+        </div>
+
+      <div class="row">
+
+        <div class="col-md-4 grey">
+            <img src="./img/flirto.jpg" />
+            <h2>Flirtomatic</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="./img/wms2.png" />
+            <h2>Williams Interactive</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+
+        <div class="col-md-4 grey">
+            <img src="./img/orange.png" />
+            <h2>WeLoveMobile</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+      </div>
+
+    <div class="row">
+
+        <div class="col-md-4 ">
+            <img src="./img/skandia.png" />
+            <h2>Sapient</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+        <div class="col-md-4 grey">
+            <img src="./img/rumbo.png" />
+            <h2>Rumbo, Madrid</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+
+        <div class="col-md-4 ">
+            <img src="./img/viajar.png" />
+            <h2>viajar.com</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-4 grey">
+            <img src="./img/warrants_santander_big.jpg" />
+            <h2>Santander (Interactive Data), Madrid</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+        <div class="col-md-4 ">
+            <img src="./img/unionfenosa_big.jpg" />
+            <h2>Union Fenosa (Indra), Madrid</h2>
+            <p>javascript, HTML, CSS</p>
+        </div>
+
+
+        <div class="col-md-4 grey">
+            <img src="./img/ibm_big.jpg" />
+            <h2>IBM, Madrid</h2>
+            <p>javascript, HTML, CSS, technologist</p>
+        </div>
+
+    </div>
+
+    </div>
+
+    <hr>
+
+      <footer>
+        <p>@leolaneseltd</p>
+      </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./js/port.js"></script>
+
+    </body>
+</html>
